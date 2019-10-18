@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|center_vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="URL Requests"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="AkaURLConnection GET Demo"
+        android:id="@+id/urlConnDemoActivity"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickGET" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="AkaURLConnection POST Demo"
+        android:id="@+id/urlConnPostDemo"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickPOST" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="AkaURLStreamHandler Demo"
+        android:id="@+id/akaStreamHandlerDemo"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickGETWithAkaStreamHandler" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Okhttp App Interceptor"
+        android:id="@+id/OkhttpAppIntDemo"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickOkhttpWithAppInterceptor" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Okhttp Interceptor"
+        android:id="@+id/OkhttpDemo"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickOkhttpWithInterceptor" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Retrofit 2 Demo"
+        android:id="@+id/Retrofit2Demo"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickRetrofit2" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Picasso Demo"
+        android:id="@+id/PicassoDemo"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickPicasso" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Event API"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="WebView"
+        android:id="@+id/bestbuy"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickWebView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Other Features"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Network Quality Demo"
+        android:id="@+id/button"
+        android:onClick="onClickCongestion"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Config"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Update Segment Subscription"
+        android:id="@+id/registerUpdate"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickRegisterUpdate" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Blacklist Get"
+        android:id="@+id/blacklist"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickBlacklistGet" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Whitelist Get"
+        android:id="@+id/whitelist"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickWhitelistGet" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Clear white/black list"
+        android:id="@+id/clearList"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickClearRestrictiononGet" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Set Mem Usage(200MB)"
+        android:id="@+id/medMem"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickSet200MBMem" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Debug Helpers"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Toggle Debug Mode"
+        android:id="@+id/debugMode"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickDebugMode" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Is SDK Enabled"
+        android:id="@+id/isenabled"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickIsEnabled" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Subscribed Segments?"
+        android:id="@+id/subseg"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickAllSubSeg" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Log Current Configuration"
+        android:id="@+id/logConfig"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickLogConfig" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Log Existing Content"
+        android:id="@+id/logContent"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickLogContent" />
+
+</LinearLayout>
+</ScrollView>

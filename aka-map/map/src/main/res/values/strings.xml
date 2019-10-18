@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MAP Demo</string>
+    <string name="downloads_allowed">"Downloads are allowed"</string>
+    <string name="low_battery">"Low Battery, Downloads not permitted"</string>
+    <string name="network_condition_no_wifi">"Not on WiFi, Downloads not permitted"</string>
+    <string name="network_condition_no_wifi_cell">"Not on WiFi or Cellular, Downloads not permitted"</string>
+    <string name="not_charging">"Not charging Downloads not permitted"</string>
+    <string name="download_not_permitted">"Downloads not permitted in Network Preference setting"</string>
+    <string name="cache_full">"Cache full, Downloads not permitted"</string>
+    <string name="tod_policy">"Cellular fetch currently not allowed"</string>
+</resources>

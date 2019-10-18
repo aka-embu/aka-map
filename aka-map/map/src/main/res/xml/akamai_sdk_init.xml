@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com_akamai_sdk_init>
+    <!-- Set the correct parameter values -->
+        <com_akamai_map_license_key></com_akamai_map_license_key>
+        <com_akamai_map_segments></com_akamai_map_segments>
+</com_akamai_sdk_init>

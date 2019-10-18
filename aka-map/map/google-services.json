@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "513775646000",
+    "firebase_url": "https://vocaccelerator.firebaseio.com",
+    "project_id": "vocaccelerator",
+    "storage_bucket": "vocaccelerator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513775646000:android:911f437ae6f9eaef",
+        "android_client_info": {
+          "package_name": "example.com.map.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513775646000-ukb9p8j1qr26qecpg4u6kju4uc47q91r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzWpvb7WPAzOuHx-ASKLHYOrrIOLJeG4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513775646000-ukb9p8j1qr26qecpg4u6kju4uc47q91r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "513775646000-d5453rgf28vohd98kickrc9t2dj5ra45.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.akamai.mapsdkjointframework"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513775646000:android:053738f8954f7cf1",
+        "android_client_info": {
+          "package_name": "example.com.vocaccelerator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513775646000-ukb9p8j1qr26qecpg4u6kju4uc47q91r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzWpvb7WPAzOuHx-ASKLHYOrrIOLJeG4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513775646000-ukb9p8j1qr26qecpg4u6kju4uc47q91r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "513775646000-d5453rgf28vohd98kickrc9t2dj5ra45.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.akamai.mapsdkjointframework"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
